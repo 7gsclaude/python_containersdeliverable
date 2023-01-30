@@ -33,3 +33,15 @@ for student, fruit in zip(students, fruits):
 stardust.append(student_collection)
 
 print(stardust)
+
+
+#7
+awesome_students = [student + " is awesome!" for student in students]
+
+
+print(awesome_students)
+
+#8
+fruits_with_a = [fruit for fruit in fruits if 'a' in fruit]
+
+print(fruits_with_a)
